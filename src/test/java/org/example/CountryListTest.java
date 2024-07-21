@@ -23,7 +23,7 @@ public class CountryListTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Получение List<Country> по ключу EUR")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void checkCountryInRegion(){
 
         List<Country> result = given()

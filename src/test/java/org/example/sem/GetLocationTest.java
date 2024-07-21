@@ -21,7 +21,7 @@ public class GetLocationTest extends AccuweatherAbstractTest {
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Получение объекта Location для Samara")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void getLocation(){
 
         List<AdministrativeArea.Location> result = given()

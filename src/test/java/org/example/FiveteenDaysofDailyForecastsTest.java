@@ -19,7 +19,7 @@ public class FiveteenDaysofDailyForecastsTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды за 15 дней")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testErrorMessage() {
         String response = given()
                 .when()

@@ -18,7 +18,7 @@ public class FailHoursofHourlyForecastsTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды за прошедшие 120 часов")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testErrorResponses() {
         String response = given()
                 .when()

@@ -18,7 +18,7 @@ public class OneDayofDailyForecastsTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды на день")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testOneDay() {
 
         String result = given().queryParam("apikey", getApiKey())

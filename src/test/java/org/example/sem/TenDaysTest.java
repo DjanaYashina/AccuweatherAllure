@@ -19,7 +19,7 @@ public class TenDaysTest extends AccuweatherAbstractTest {
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды за 10 дней")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void getTenDays_shouldReturn401(int code){
         given()
                 .queryParam("apikey", getApiKey())

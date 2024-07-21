@@ -21,7 +21,7 @@ public class TvelveHoursofHourlyForecastsTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды на 12 часов")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testTvelveHoursForecasts() {
         String response = given()
                 .when()

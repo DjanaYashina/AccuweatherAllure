@@ -18,7 +18,7 @@ public class AllDayHistoricalCurrentConditionsTest extends AccuweatherAbstractTe
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды за прошедшие 24 часа")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testDayHistoricalCurrent() {
         String response = given()
                 .when()

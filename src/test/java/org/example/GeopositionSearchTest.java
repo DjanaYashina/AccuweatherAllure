@@ -19,7 +19,7 @@ public class GeopositionSearchTest extends AccuweatherAbstractTest {
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Получение объекта geoposition по ключу 55.79, 37.53")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void FindMoscowOnGeoposition() {
         String result = given()
                 .queryParam("apikey", getApiKey())

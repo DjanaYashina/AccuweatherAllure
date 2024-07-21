@@ -19,7 +19,7 @@ public class FiveDaysofDailyForecastsTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды за 5 дней")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testFiveDays() {
 
         Weather weather = given().queryParam("apikey", getApiKey())

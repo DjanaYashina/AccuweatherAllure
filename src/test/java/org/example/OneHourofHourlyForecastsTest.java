@@ -20,7 +20,7 @@ public class OneHourofHourlyForecastsTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды ближайший час")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void testOneHourForecasts() {
         String response = given()
                 .when()

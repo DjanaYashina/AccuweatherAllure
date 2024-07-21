@@ -21,7 +21,7 @@ public class RegionListTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Получение List<Region>")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
         void getRegions(){
 
             List<Region> result = given()

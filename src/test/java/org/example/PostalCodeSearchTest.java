@@ -21,7 +21,7 @@ public class PostalCodeSearchTest extends AccuweatherAbstractTest{
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Получение объекта Location для 101000")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
     void FindCitiesForPostalCode() {
         List<PostalCodeSearch> result = given()
                 .queryParam("apikey", getApiKey())

@@ -18,7 +18,7 @@ public class SixHoursHistoricalCurrentConditionsTest extends AccuweatherAbstract
     @Link("https://developer.accuweather.com/accuweather-location-api/apis")
     @Severity(SeverityLevel.BLOCKER)
     @Story("Вызов метода получения погоды за прошедшие 6 часов")
-    @Owner("Киселева Александра")
+    @Owner("Яшина Джана")
      void testResponseData() {
         String response = given()
                 .when()
